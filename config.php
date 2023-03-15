@@ -5,6 +5,6 @@ $conn = new mysqli("localhost", "root", "", "rest_api");
  
 // Check connection
 if($conn === false){
-    die("ERROR: Could not connect. " . $mysqli->connect_error);
+    die("ERROR: Could not connect. to MYSQL " . $mysqli->connect_error);
 }
 ?>
